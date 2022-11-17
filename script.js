@@ -1,5 +1,5 @@
 const uname = document.getElementById('uname');
-const password = document.getElementById('pword')
+const password = document.getElementById('pword');
 
 
 function validate() {
