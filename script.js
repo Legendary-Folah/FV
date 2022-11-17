@@ -1,4 +1,4 @@
-const uname = document.getElementById('uname')
+const uname = document.getElementById('uname');
 const password = document.getElementById('pword')
 
 
