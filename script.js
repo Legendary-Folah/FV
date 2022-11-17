@@ -5,6 +5,8 @@ function validate() {
 
     if (uname.value.trim() == '') {
         uname.style.border = 'solid 2px red'
-    } else if ()
+    } else if (password.value.trim() == '') {
+        password.style.border = 'solid 2px red'
+    }
 
 }
