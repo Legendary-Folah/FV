@@ -8,6 +8,10 @@ function validate() {
         uname.style.border = 'solid 2px red'
         const labelusername = document.getElementById('labeluser').style.visibility = 'visible'
     }
+
+    if (password.value.trim().length < 6) {
+        password.style.border = 'solid 2px red'
+    }
     // } else if (password.value.trim() == '') {
     //     password.style.border = 'solid 2px red'
     // }
