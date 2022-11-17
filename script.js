@@ -11,9 +11,6 @@ function validate() {
 
     if (password.value.trim().length < 6) {
         password.style.border = 'solid 2px red'
+        const passworduser = document.getElementById('passworduser').style.visibility = 'visible'
     }
-    // } else if (password.value.trim() == '') {
-    //     password.style.border = 'solid 2px red'
-    // }
-
 }
