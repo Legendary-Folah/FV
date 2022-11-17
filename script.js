@@ -7,8 +7,9 @@ function validate() {
     if (uname.value.trim() == '') {
         uname.style.border = 'solid 2px red'
         const labelusername = document.getElementById('labeluser').style.visibility = 'visible'
-    } else if (password.value.trim() == '') {
-        password.style.border = 'solid 2px red'
     }
+    // } else if (password.value.trim() == '') {
+    //     password.style.border = 'solid 2px red'
+    // }
 
 }
